@@ -1,0 +1,60 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    flex-direction:column;
+    margin: 0;
+}
+#topo{
+    display: flex;
+    flex-direction: row;
+    
+}
+#topo>header{
+    background-color: rgb(61, 53, 53);
+    min-width:98vw;
+    height: 10vw;
+}
+
+.tela >article{
+       flex:1;
+       order:2;
+       margin-left: 10vw;
+       margin-top: 1vw;
+       padding: 30px;
+       background-color: rgb(61, 53, 53);
+       width: 500px;
+       height: 420px;
+       border-radius: 10px;
+
+}
+
+img{
+    max-width: 150px;
+    margin: 10px;
+}
+
+input{
+    width: 200px;
+    margin-left: 10px;
+    color: black;
+}
+
+#cadastro{
+    color: aliceblue;
+    background-color: black;
+    margin-left: 70px;
+    padding: 10px;
+    width: 140px;
+    border-radius: 5px;
+}
+
+#cadastro:hover{
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+}
+

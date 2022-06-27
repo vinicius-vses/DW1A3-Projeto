@@ -1,0 +1,79 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(61, 53, 53);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+#topo {
+    display: flex;
+    flex-direction: row;
+}
+
+#topo>header {
+    background-color: rgb(61, 53, 53);
+    min-width: 65vw;
+    height: 10vw;
+}
+
+#topo>nav {
+    background-color: rgb(61, 53, 53);
+    min-width: 35vw;
+}
+
+.nome {
+    display: flex;
+    flex: 1;
+}
+
+.nome>aside {
+    order: 2;
+    background-color: rgb(61, 53, 53);
+}
+
+.nome>article {
+    flex: 1;
+    order: 3;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+h2, figure{
+    background-color: white;
+}
+
+img {
+    max-width: 150px;
+    margin: 10px;
+}
+
+button {
+    color: aliceblue;
+    background-color: black;
+    margin: 30px;
+    padding: 10px;
+    width: 140px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(41, 40, 40);
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(61, 53, 53);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/carrinho.css">
+  <title>Tênis&Tênis - Carrinho</title>
+</head>
+
+<body>
+  <div id="topo">
+    <header>
+      <a href="index.html"><img src="imagens/logo.png" alt="Logo" id="logo"></a>
+    </header>
+    <nav>
+      <div class="menu"></div>
+    </nav>
+  </div>
+  <div class="carrinho">
+    <section>
+      <h3><b>MEU CARRINHO</b></h3><br>
+      <table>
+        <tr>
+          <td scope="col">
+            <form id="addCartBtn">
+              <input id="campoCriaModelo" name="campoCriaModelo" type="text" placeholder="Digite o nome do modelo">
+            </form>
+          </td>
+        </tr>
+      </table>
+      <h5>Items no carrinho</h5>
+      <ul id="itemList"></ul>
+      <p>Clique no Item para excluí-lo</p>
+      <a href="concluido.html"><button>CONCLUIR PEDIDO</button></a>
+    </section>
+  </div>
+  <script src="script/carrinho.js"></script>
+</body>
+
+</html>
